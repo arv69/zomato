@@ -49,6 +49,20 @@ body{
     width: 100%;
 }
 
+.hero__text{
+    font-size:30px;
+    color:#1d3557;
+    margin:20px 0;
+}
+
+/* Menu Styles */
+
+.food__menu__card{
+    width:100%;
+}
+.food__image{
+    width:100%;
+}
 
 @media(min-width:768px){
 .navbar{
@@ -70,19 +84,27 @@ padding:10px 20px;
     justify-content: space-between;
     gap:10px;
 }
+.button__primary{
+    padding: 10px 20px;
+     /* top and bottom 10px ,left and right 20px */
+    font-size:20px;
+    cursor: pointer;
+
+}
 }
 @media(min-width:1020px){
     .container{
-        max-width: 1020px;
+        max-width: 900px;
     }
-    .hero__image__container{
-    width:500px;
-    height:500px;
-}
-
+    
+   .hero__text{
+    font-size:50px;
+   }
 }
 @media(min-width:1440px){
-
+    .container{
+        max-width:1250px;
+    }
 }
 
 
