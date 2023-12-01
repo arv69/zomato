@@ -59,10 +59,18 @@ body{
 
 .food__menu__card{
     width:100%;
+    background-color: #fff;
+    border-radius: 8%;
 }
 .food__image{
     width:100%;
+    border-radius: 8px 8px 0px 0px;
 }
+
+.food__menu__card__description{
+    padding:20px;
+}
+
 
 @media(min-width:768px){
 .navbar{
