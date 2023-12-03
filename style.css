@@ -91,6 +91,34 @@ body{
     padding:20px;
 }
 
+/* flex */
+
+.restaurants__flex__row__one,.restaurants__flex__row__two{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.restaurant__1,.restaurant__2,.restaurant__3,.restaurant__4{
+    width:100%;
+    
+}
+
+.restaurant__1,
+.restaurant__4{
+    height:250px;
+    width:100px;
+    
+}
+
+.restaurant__2,
+.restaurant__3{
+    height:250px;
+    width:150px;
+    
+}
+
 
 @media(min-width:768px){
 .navbar{
